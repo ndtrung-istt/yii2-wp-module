@@ -1,0 +1,30 @@
+{
+	"name": "istt/yii2-wp-module",
+	"description": "Use Wordpress as sample database",
+	"keywords": ["istt", "ndtrung", "yii", "wp", "wordpress"],
+	"type": "yii2-extension",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Nguyen Dinh Trung",
+			"email": "ndtrung@istt.com.vn",
+			"homepage": "http://istt.com.vn"
+		}
+	],
+	"require": {
+		"yiisoft/yii2": "*"
+	},
+	"require-dev": {
+		"kartik-v/yii2-widgets": "*",
+	    "kartik-v/yii2-grid": "*",
+	    "pheme/yii2-settings": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"istt\\wp\\": ""
+		}
+	},
+	"extra": {
+        "bootstrap": "istt\\wp\\Bootstrap"
+    }
+}
