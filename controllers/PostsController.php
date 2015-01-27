@@ -40,6 +40,20 @@ class PostsController extends Controller
             'dataProvider' => $dataProvider,
         ]);
     }
+    /**
+     * Lists all Posts models.
+     * @return mixed
+     */
+    public function actionAdmin()
+    {
+        $searchModel = new PostsSearch();
+        $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
+
+        return $this->render('adminPosts', [
+            'searchModel' => $searchModel,
+            'dataProvider' => $dataProvider,
+        ]);
+    }
 
     /**
      * Displays a single Posts model.
