@@ -7,7 +7,7 @@ use yii\grid\GridView;
 /* @var $searchModel istt\wp\models\UsermetaSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = Yii::t('sakila', 'Usermetas');
+$this->title = Yii::t('app', 'Usermetas');
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="usermeta-index">
@@ -16,7 +16,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
 
     <p>
-        <?= Html::a(Yii::t('sakila', 'Create {modelClass}', [
+        <?= Html::a(Yii::t('app', 'Create {modelClass}', [
     'modelClass' => 'Usermeta',
 ]), ['create'], ['class' => 'btn btn-success']) ?>
     </p>

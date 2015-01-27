@@ -6,10 +6,10 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model istt\wp\models\Posts */
 
-$this->title = Yii::t('sakila', 'Create {modelClass}', [
+$this->title = Yii::t('app', 'Create {modelClass}', [
     'modelClass' => 'Posts',
 ]);
-$this->params['breadcrumbs'][] = ['label' => Yii::t('sakila', 'Posts'), 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => Yii::t('app', 'Posts'), 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="posts-create">

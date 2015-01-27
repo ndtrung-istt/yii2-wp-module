@@ -6,10 +6,10 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model istt\wp\models\Links */
 
-$this->title = Yii::t('sakila', 'Create {modelClass}', [
+$this->title = Yii::t('app', 'Create {modelClass}', [
     'modelClass' => 'Links',
 ]);
-$this->params['breadcrumbs'][] = ['label' => Yii::t('sakila', 'Links'), 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => Yii::t('app', 'Links'), 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="links-create">

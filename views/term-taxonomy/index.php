@@ -7,7 +7,7 @@ use yii\grid\GridView;
 /* @var $searchModel istt\wp\models\TermTaxonomySearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = Yii::t('sakila', 'Term Taxonomies');
+$this->title = Yii::t('app', 'Term Taxonomies');
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="term-taxonomy-index">
@@ -16,7 +16,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
 
     <p>
-        <?= Html::a(Yii::t('sakila', 'Create {modelClass}', [
+        <?= Html::a(Yii::t('app', 'Create {modelClass}', [
     'modelClass' => 'Term Taxonomy',
 ]), ['create'], ['class' => 'btn btn-success']) ?>
     </p>

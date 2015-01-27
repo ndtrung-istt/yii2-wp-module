@@ -7,7 +7,7 @@ use yii\grid\GridView;
 /* @var $searchModel istt\wp\models\OptionsSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = Yii::t('sakila', 'Options');
+$this->title = Yii::t('app', 'Options');
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="options-index">
@@ -16,7 +16,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
 
     <p>
-        <?= Html::a(Yii::t('sakila', 'Create {modelClass}', [
+        <?= Html::a(Yii::t('app', 'Create {modelClass}', [
     'modelClass' => 'Options',
 ]), ['create'], ['class' => 'btn btn-success']) ?>
     </p>

@@ -7,7 +7,7 @@ use yii\grid\GridView;
 /* @var $searchModel istt\wp\models\TermRelationshipsSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = Yii::t('sakila', 'Term Relationships');
+$this->title = Yii::t('app', 'Term Relationships');
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="term-relationships-index">
@@ -16,7 +16,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
 
     <p>
-        <?= Html::a(Yii::t('sakila', 'Create {modelClass}', [
+        <?= Html::a(Yii::t('app', 'Create {modelClass}', [
     'modelClass' => 'Term Relationships',
 ]), ['create'], ['class' => 'btn btn-success']) ?>
     </p>

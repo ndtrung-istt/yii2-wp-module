@@ -6,10 +6,10 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model istt\wp\models\Comments */
 
-$this->title = Yii::t('sakila', 'Create {modelClass}', [
+$this->title = Yii::t('app', 'Create {modelClass}', [
     'modelClass' => 'Comments',
 ]);
-$this->params['breadcrumbs'][] = ['label' => Yii::t('sakila', 'Comments'), 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => Yii::t('app', 'Comments'), 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="comments-create">

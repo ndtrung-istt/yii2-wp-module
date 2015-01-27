@@ -6,10 +6,10 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model istt\wp\models\Postmeta */
 
-$this->title = Yii::t('sakila', 'Create {modelClass}', [
+$this->title = Yii::t('app', 'Create {modelClass}', [
     'modelClass' => 'Postmeta',
 ]);
-$this->params['breadcrumbs'][] = ['label' => Yii::t('sakila', 'Postmetas'), 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => Yii::t('app', 'Postmetas'), 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="postmeta-create">

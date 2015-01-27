@@ -5,12 +5,12 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model istt\wp\models\Options */
 
-$this->title = Yii::t('sakila', 'Update {modelClass}: ', [
+$this->title = Yii::t('app', 'Update {modelClass}: ', [
     'modelClass' => 'Options',
 ]) . ' ' . $model->option_id;
-$this->params['breadcrumbs'][] = ['label' => Yii::t('sakila', 'Options'), 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => Yii::t('app', 'Options'), 'url' => ['index']];
 $this->params['breadcrumbs'][] = ['label' => $model->option_id, 'url' => ['view', 'id' => $model->option_id]];
-$this->params['breadcrumbs'][] = Yii::t('sakila', 'Update');
+$this->params['breadcrumbs'][] = Yii::t('app', 'Update');
 ?>
 <div class="options-update">
 

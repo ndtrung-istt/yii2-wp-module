@@ -5,12 +5,12 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model istt\wp\models\Usermeta */
 
-$this->title = Yii::t('sakila', 'Update {modelClass}: ', [
+$this->title = Yii::t('app', 'Update {modelClass}: ', [
     'modelClass' => 'Usermeta',
 ]) . ' ' . $model->umeta_id;
-$this->params['breadcrumbs'][] = ['label' => Yii::t('sakila', 'Usermetas'), 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => Yii::t('app', 'Usermetas'), 'url' => ['index']];
 $this->params['breadcrumbs'][] = ['label' => $model->umeta_id, 'url' => ['view', 'id' => $model->umeta_id]];
-$this->params['breadcrumbs'][] = Yii::t('sakila', 'Update');
+$this->params['breadcrumbs'][] = Yii::t('app', 'Update');
 ?>
 <div class="usermeta-update">
 

@@ -5,12 +5,12 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model istt\wp\models\Postmeta */
 
-$this->title = Yii::t('sakila', 'Update {modelClass}: ', [
+$this->title = Yii::t('app', 'Update {modelClass}: ', [
     'modelClass' => 'Postmeta',
 ]) . ' ' . $model->meta_id;
-$this->params['breadcrumbs'][] = ['label' => Yii::t('sakila', 'Postmetas'), 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => Yii::t('app', 'Postmetas'), 'url' => ['index']];
 $this->params['breadcrumbs'][] = ['label' => $model->meta_id, 'url' => ['view', 'id' => $model->meta_id]];
-$this->params['breadcrumbs'][] = Yii::t('sakila', 'Update');
+$this->params['breadcrumbs'][] = Yii::t('app', 'Update');
 ?>
 <div class="postmeta-update">
 

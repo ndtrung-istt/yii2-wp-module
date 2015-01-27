@@ -5,12 +5,12 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model istt\wp\models\TermTaxonomy */
 
-$this->title = Yii::t('sakila', 'Update {modelClass}: ', [
+$this->title = Yii::t('app', 'Update {modelClass}: ', [
     'modelClass' => 'Term Taxonomy',
 ]) . ' ' . $model->term_taxonomy_id;
-$this->params['breadcrumbs'][] = ['label' => Yii::t('sakila', 'Term Taxonomies'), 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => Yii::t('app', 'Term Taxonomies'), 'url' => ['index']];
 $this->params['breadcrumbs'][] = ['label' => $model->term_taxonomy_id, 'url' => ['view', 'id' => $model->term_taxonomy_id]];
-$this->params['breadcrumbs'][] = Yii::t('sakila', 'Update');
+$this->params['breadcrumbs'][] = Yii::t('app', 'Update');
 ?>
 <div class="term-taxonomy-update">
 
